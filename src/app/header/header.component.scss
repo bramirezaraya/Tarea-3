@@ -1,0 +1,41 @@
+.navegador{
+    align-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.993);
+    height: 70px;
+}
+
+.nav-item{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-link{
+    align-content: center;
+    text-align: center;
+    color: rgb(236, 241, 241);
+    
+}
+
+.nav{
+    display:inline-flex;
+}
+
+.barra{
+    margin-left: 20px;
+    border: solid 1px white;
+    margin-top: 15px;
+    transition: transform .5s;
+}
+
+.barra:hover{
+    color: rgb(209, 197, 197);
+    transform: scale(1.1);
+}
+
+.fondo{
+    background-image: url("../../assets/imagen\ 1.jpg");
+    height: 300px;
+}
