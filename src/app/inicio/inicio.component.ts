@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import{listaNoticias} from "../interfaces/noticias"
 
 @Component({
   selector: 'app-inicio',
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InicioComponent implements OnInit {
 
+
+  listaNoticias = listaNoticias;
   constructor() { }
 
   ngOnInit(): void {

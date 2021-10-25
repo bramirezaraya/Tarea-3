@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { DetalleDeLaNoticiaComponent } from './detalle-de-la-noticia/detalle-de-la-noticia.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HeaderComponent,
     FooterComponent,
     ContactComponent,
-    InicioComponent
+    InicioComponent,
+    DetalleDeLaNoticiaComponent
   ],
   imports: [
     BrowserModule,
