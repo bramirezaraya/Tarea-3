@@ -1,0 +1,81 @@
+ul li{
+    list-style-type: none;
+}
+
+label{
+    margin-top: 8px;
+}
+
+#nombre, #telefono, #correo{
+
+    width: 100%;
+    margin-bottom: 5px; 
+    border-color: rgba(120,104,250,1);  
+}
+
+#dirigido{
+    width: 50%;
+    border-color: rgba(120,104,250,1);
+}
+#mensaje{
+    margin-bottom: 15px;
+    border-color: rgba(120,104,250,1);
+}
+
+#mensaje{
+    width: 100%;
+    height: 150px;
+}
+
+form{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    margin: auto;
+    
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    
+
+}
+
+#campos{
+    background-color: white;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(120,104,250,1);
+    font-size: 30px;
+    color: rgb(255, 254, 254);
+    margin-bottom: 0px;
+    padding: 20px;
+}
+
+.containterform{
+    background: rgb(105,224,226);
+    background: linear-gradient(0deg, rgba(105,224,226,1) 24%, rgba(120,104,250,1) 91%);
+    
+}
+
+#mensajeRecibido{
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 600px;
+}
+
+#mensajeRecibido p{
+    color: white;
+}
+#btnEnvioDatos{
+    background-color: rgba(120,104,250,1);
+    color: white;
+    border-radius: 8px;
+}

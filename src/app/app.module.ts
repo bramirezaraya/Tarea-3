@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { DetalleDeLaNoticiaComponent } from './detalle-de-la-noticia/detalle-de-la-noticia.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { DetalleDeLaNoticiaComponent } from './detalle-de-la-noticia/detalle-de-
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
