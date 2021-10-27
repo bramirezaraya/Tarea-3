@@ -20,7 +20,7 @@ export let listaCategorias:Array<Categorias>=[
     {
         idCategoria: 3,
         titulo:"Deporte",
-        color:"white"
+        color:"naranjo"
     },
     {
         idCategoria:4,

@@ -6,7 +6,7 @@
       <p class="card-text">{{noticias.texto}}</p>
       <p class="card-text">Autor: {{noticias.autor}}</p>
       <p class="card-text">Fecha: {{noticias.fecha}}</p>
-      <p class="card-text">Tipo de Categoria: {{categorias.titulo}}</p>
+      <p class="card-text" [ngClass]="{azul:categorias.idCategoria ==1,rojo:categorias.idCategoria ==2,naranjo: categorias.idCategoria ==3,black: categorias.idCategoria ==4,yellow: categorias.idCategoria ==5,green: categorias.idCategoria ==6}" >Tipo de Categoria: {{categorias.titulo}}</p>
       <button type="button" class="btn btn-sm btn btn-primary" routerLink="">Volver</button>
     </div>
   </div>

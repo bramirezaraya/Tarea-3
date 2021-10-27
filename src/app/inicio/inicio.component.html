@@ -12,7 +12,7 @@
                         <p class="card-text"> {{noticia.texto}} </p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn btn-success boton1" routerLink="detalleNoticia/{{noticia.id}}"  >Leer Mas</button>
+                                <button type="button" class="btn btn-sm btn" routerLink="detalleNoticia/{{noticia.id}}" [ngClass]="{azul:noticia.idCategoria ==1,rojo:noticia.idCategoria ==2,naranjo: noticia.idCategoria ==3,black: noticia.idCategoria ==4,yellow: noticia.idCategoria ==5,green: noticia.idCategoria ==6}"  >Leer Mas</button>
                             </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@
                         <p class="card-text"> {{noticia.texto}} </p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn btn-success boton1" routerLink="detalleNoticia/{{noticia.id}}"  >Leer Mas</button>
+                                <button type="button" class="btn btn-sm btn btn-success" routerLink="detalleNoticia/{{noticia.id}}">Leer Mas</button>
                             </div>
                         </div>
                     </div>
